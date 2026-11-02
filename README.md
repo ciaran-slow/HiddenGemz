@@ -6,6 +6,10 @@
 
 HiddenGemz is a full-stack community-driven platform designed to help you discover, share, and save the best local spots. Whether it's a quiet cafe, a bustling bar, or a hidden restaurant, HiddenGemz connects you with authentic local experiences.
 
+**Live demo:** https://hidden-gemz-nz.onrender.com/ *(hosted on a free tier, so the first load can take about 20 seconds)*
+
+> A team project built by five developers during the Dev Academy Aotearoa full-stack programme. This repository is a copy of the team's original repo, which lives in the course organisation's private account, so its commit history is flattened here.
+
 ## 🚀 Features
 
 -   **Discover:** Browse a curated list of local "gemz" with detailed reviews and interactive maps.
@@ -35,12 +39,27 @@ HiddenGemz is a full-stack community-driven platform designed to help you discov
 
 ---
 
+## 🙋 My contributions (Ciaran)
+
+I was one of five contributors, with 53 commits and 34 merged pull requests in the team repo. My work covered:
+
+- **Project start:** the routing skeleton, and the first post cards and detail modal.
+- **Authentication in the UI:** Auth0 login on the front end, the profile pages and a "my profile" view.
+- **Posts:** image upload with Cloudinary, edit and delete flows, and form and filter styling and fixes.
+- **Community features:** comments (with optimistic updates), favourites and favourite counts, and a follow/friend system.
+- **Maps:** an embedded map in the post modal.
+- **Polish:** loading, empty-result and back-button states, search and sort fixes, and mobile fixes.
+- **Deployment:** the Render setup and the database fixes needed to get it live.
+- **Docs:** the README and its hero image.
+
+---
+
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Raumati-2026/hidden-gemz.git
-cd hidden-gemz
+git clone https://github.com/ciaran-slow/HiddenGemz.git
+cd HiddenGemz
 ```
 
 ### 2. Install Dependencies
